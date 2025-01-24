@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="405.0" prefWidth="629.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fx:id="bank1" fitHeight="78.0" fitWidth="68.0" layoutX="29.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="bank2" fitHeight="78.0" fitWidth="68.0" layoutX="117.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="hrac1" fitHeight="78.0" fitWidth="68.0" layoutX="14.0" layoutY="193.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="hrac2" fitHeight="78.0" fitWidth="68.0" layoutX="110.0" layoutY="193.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="hrac3" fitHeight="78.0" fitWidth="68.0" layoutX="202.0" layoutY="193.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="hrac4" fitHeight="78.0" fitWidth="68.0" layoutX="291.0" layoutY="193.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="hrac5" fitHeight="78.0" fitWidth="68.0" layoutX="384.0" layoutY="193.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="hrac6" fitHeight="78.0" fitWidth="68.0" layoutX="484.0" layoutY="193.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="hrac7" fitHeight="78.0" fitWidth="68.0" layoutX="14.0" layoutY="313.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="hrac8" fitHeight="78.0" fitWidth="68.0" layoutX="110.0" layoutY="313.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="hrac9" fitHeight="78.0" fitWidth="68.0" layoutX="202.0" layoutY="313.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="hrac10" fitHeight="78.0" fitWidth="68.0" layoutX="291.0" layoutY="313.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="hrac11" fitHeight="78.0" fitWidth="68.0" layoutX="384.0" layoutY="313.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="hrac12" fitHeight="78.0" fitWidth="68.0" layoutX="484.0" layoutY="313.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="dalsi" layoutX="265.0" layoutY="47.0" mnemonicParsing="false" onAction="#dal1" text="Další" />
+      <Button fx:id="konec" layoutX="333.0" layoutY="47.0" mnemonicParsing="false" onAction="#kon1" text="Konec" />
+      <Button fx:id="hra" layoutX="400.0" layoutY="47.0" mnemonicParsing="false" onAction="#nov1" prefHeight="25.0" prefWidth="68.0" text="Nová hra" />
+      <Label layoutX="296.0" layoutY="98.0" text="Bankéř" />
+      <Label layoutX="409.0" layoutY="98.0" text="Hráč" />
+      <Label fx:id="konec2" layoutX="538.0" layoutY="98.0" prefHeight="17.0" prefWidth="60.0" />
+      <Label fx:id="banker" layoutX="345.0" layoutY="98.0" text="x" />
+      <Label fx:id="hrac" layoutX="446.0" layoutY="98.0" text="0" />
+   </children>
+</AnchorPane>
